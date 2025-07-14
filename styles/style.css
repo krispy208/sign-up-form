@@ -1,0 +1,92 @@
+html,body,p {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('../fonts/Norse-Bold.otf');
+}
+
+
+.background {
+  width:300px;
+}
+
+.left-section {
+  display: relative;
+}
+
+.odin-label-background {
+  position: absolute;
+  top: 150px;
+  height: 100px;
+  width: 300px;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.odin-logo {
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 0px;
+  width: 70px;
+  height: 100%;
+}
+
+.odin-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.odin-name-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.odin-name {
+  font-family: 'Norse Bold';
+  flex:1;
+  color:white;
+  font-size: 60px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top:10px;
+  padding-left: 0px;
+}
+
+.credit {
+  bottom: 0;
+  position:absolute;
+  color: rgba(255,255,255,0.6);
+  width: 300px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.credit-name {
+  font-size:10px;
+}
+
+a {
+  color: rgba(255,255,255,0.6);
+}
